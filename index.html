@@ -1,186 +1,474 @@
-<!DOCTYPE html> <!-- Declares the document as HTML5 -->
-<html lang="en"> <!-- Specifies English as the document language -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <!-- Meta tags for character encoding, viewport responsiveness, and SEO -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Master the Stock Market – Learn to invest with clarity and confidence. No fluff, no hype. Just actionable steps.">
-  <meta name="keywords" content="Stock Market, Investing, Nigeria Stocks, U.S. Stocks, ETFs, Investment Course">
-  <meta name="kdglobal" content="Financial Elites">
+    content="Stock Market Mastery by JohnsonRich & Co. Ltd. Learn how to invest confidently even if you are starting from zero. One-on-one coaching, structured modules, private community, and certificate of completion.">
+  <meta name="keywords"
+    content="Stock Market Mastery, JohnsonRich, stock market course, investing for beginners, Nigeria investment training, ETFs, portfolio management">
+  <meta name="author" content="KD Global">
 
-  <!-- Open Graph tags for social media previews -->
-  <meta property="og:title" content="Stock Market Simplified">
-  <meta property="og:description" content="Learn to invest with clarity and confidence. No fluff, just action.">
+  <meta property="og:title" content="Stock Market Mastery">
+  <meta property="og:description"
+    content="Learn how to invest confidently even if you are starting from zero. Structured coaching, real guidance, and long-term investing clarity.">
   <meta property="og:image" content="https://kerdaino.github.io/stock-market-simplified/media/my-og-image.jpg">
-  <meta property="og:image:type" content="image/jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kerdaino.github.io/stock-market-simplified">
 
-  <!-- Browser theming -->
-  <meta name="theme-color" content="#102542">
+  <meta name="theme-color" content="#0f172a">
 
-  <!-- Page title -->
-  <title>Stock Market Simplified</title>
+  <title>Stock Market Mastery | JohnsonRich & Co. Ltd</title>
 
-  <!-- Favicon for browser tab -->
   <link rel="icon" href="./media/logo.jpeg" type="image/jpeg">
-
-  <!-- Preload critical assets for performance -->
   <link rel="preload" as="image" href="./media/logo.jpeg" type="image/jpeg">
   <link rel="preload" as="style"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap">
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700&display=swap">
 
-  <!-- External stylesheet -->
   <link rel="stylesheet" href="./css/main.css">
 
-  <!-- Google Fonts and FontAwesome for icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/85eceaceac.js" crossorigin="anonymous"></script>
 </head>
 
-<body data-whatsapp="https://wa.link/ithf7q">
-  <!-- Skip link for accessibility -->
+<body>
   <a href="#main" class="skip-link">Skip to main content</a>
 
-  <!-- Header section with logo and navigation -->
   <header>
     <div class="container header">
       <a href="index.html" class="home">
-        <img src="./media/logo.jpeg" alt="Financial Elites - Stock Market Simplified Logo" class="logo img-rounded">
+        <img src="./media/logo.jpeg" alt="JohnsonRich & Co. Ltd Logo" class="logo img-rounded">
       </a>
-      <!-- Semantic navigation with accessible label -->
+
       <nav aria-label="Main navigation">
         <h2 class="sr-only">Main Navigation</h2>
         <a href="#about">About</a>
-        <a href="#course">Course</a>
+        <a href="#for">Who It’s For</a>
+        <a href="#modules">Modules</a>
+        <a href="#results">Results</a>
+        <a href="#pricing">Pricing</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Main content wrapper -->
   <main id="main">
-    <!-- Hero section with headline and CTA -->
     <section class="hero" aria-label="Intro section">
-      <div class="hero-content">
-        <h1>Master the Stock Market</h1>
-        <p>Even if you’re a complete beginner.</p>
-        <a href="#" class="cta-button whatsapp-link" aria-label="Join the course via WhatsApp" target="_blank">Join Now
-          on WhatsApp</a>
-      </div>
-    </section>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">A JohnsonRich & Co. Ltd Program</span>
+          <h1>Stock Market Mastery</h1>
+          <p class="hero-subtitle">
+            Learn how to invest confidently even if you’re starting from zero.
+          </p>
+          <p class="hero-text">
+            Take control of your finances and start building long-term wealth with a simple,
+            step-by-step approach to the stock market. No confusing jargon. No guesswork.
+            Just clarity, structure, and practical guidance.
+          </p>
 
-    <!-- About section describing course benefits -->
-    <section class="about" id="about" aria-label="About the course">
-      <div class="container">
-        <h2>This Isn’t Your Typical Investing Course</h2>
-        <p>You’re about to learn a clear, simplified system that helps you make smart investment decisions—without
-          guessing.</p>
-        <p>By the end of this course, you’ll go from confused to confident, and start building real wealth through the
-          stock market.</p>
+          <div class="hero-actions">
+            <a href="#" class="cta-button whatsapp-link" target="_blank" rel="noopener">Enroll on WhatsApp</a>
+            <a href="#modules" class="secondary-button">View Program Modules</a>
+          </div>
 
-        <!-- Course feature highlights -->
-        <h3>What You’ll Get Inside:</h3>
-        <ul class="features">
-          <li><i class="fas fa-circle-check"></i> 5 Straightforward Modules that demystify the market</li>
-          <li><i class="fas fa-check-circle"></i> Clear breakdowns on what to buy, when to buy, and why</li>
-          <li><i class="fas fa-check-circle"></i> Real-world investment strategies you can apply immediately</li>
-          <li><i class="fas fa-check-circle"></i> Portfolio structuring techniques for long-term growth</li>
-          <li><i class="fas fa-check-circle"></i> Bonus module on ETFs and additional investment tools</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Course content breakdown -->
-    <section class="course" id="course" aria-label="Course details">
-      <div class="container">
-        <h2>Course Breakdown</h2>
-        <div class="modules">
-          <div><strong>🎯 Part 1:</strong> Stock Market Overview – Understand the market from scratch—terms, players,
-            how it all works.</div>
-          <div><strong>🎯 Part 2:</strong> Investment Analysis – Learn how to assess a stock using financials, trends,
-            and valuation.</div>
-          <div><strong>🎯 Part 3:</strong> Investment Strategy – Explore beginner-friendly strategies like value and
-            growth investing.</div>
-          <div><strong>🎯 Part 4:</strong> Portfolio Building – Create a well-balanced portfolio and learn how to track
-            returns.</div>
-          <div><strong>🎯 Part 5:</strong> ETFs & Other Investments – Discover index funds, REITs, and alternative
-            assets for diversification.</div>
+          <div class="hero-badges">
+            <span><i class="fas fa-check-circle"></i> Beginner-Friendly</span>
+            <span><i class="fas fa-user"></i> One-on-One Coaching</span>
+            <span><i class="fas fa-certificate"></i> Certificate Included</span>
+          </div>
         </div>
 
-        <!-- What makes the course stand out -->
-        <h3>What Makes This Course Different?</h3>
-        <ul class="features">
-          <li><i class="fas fa-star"></i> No fluff. No hype. Just simple, actionable knowledge.</li>
-          <li><i class="fas fa-star"></i> Step-by-step guidance tailored for beginners.</li>
-          <li><i class="fas fa-star"></i> Mentorship-driven: stay connected daily.</li>
-          <li><i class="fas fa-star"></i> Practical assignments that build your portfolio as you learn.</li>
-        </ul>
+        <div class="hero-card">
+          <h2>Program Details</h2>
+          <ul class="detail-list">
+            <li><strong>Duration:</strong> 1 Month</li>
+            <li><strong>Schedule:</strong> 3 Sessions Per Week</li>
+            <li><strong>Session Time:</strong> 1 Hour Per Session</li>
+            <li><strong>Format:</strong> Fully Flexible Scheduling</li>
+            <li><strong>Coaching:</strong> Personal One-on-One</li>
+            <li><strong>Bonus:</strong> Private Community + Certificate</li>
+          </ul>
+
+          <div class="price-box">
+            <span class="price-label">Program Fee</span>
+            <strong class="price">₦35,000</strong>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Call-to-action section -->
-    <section class="cta" aria-label="Course call to action">
+    <section class="about section-light" id="about" aria-label="About the program">
       <div class="container">
-        <h2>Ready to Take Control of Your Finances?</h2>
-        <p>Join the Stock Market Simplified. Learn the skills. Build your portfolio. Invest with clarity.</p>
-        <a href="#" class="cta-button whatsapp-link" aria-label="Join now via WhatsApp" target="_blank">Join on
-          WhatsApp</a>
+        <div class="section-heading">
+          <span class="section-tag">Why This Program Works</span>
+          <h2>Simple. Practical. Structured for Real Growth.</h2>
+          <p>
+            Whether you are completely new or just need a clearer understanding of how the market works,
+            this program walks you through investing in a structured and easy-to-follow way.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Build Confidence</h3>
+            <p>Learn to invest with confidence even as a complete beginner.</p>
+          </article>
+
+          <article class="info-card">
+            <i class="fas fa-layer-group"></i>
+            <h3>Step-by-Step Learning</h3>
+            <p>Follow a practical roadmap to building wealth over time.</p>
+          </article>
+
+          <article class="info-card">
+            <i class="fas fa-user-tie"></i>
+            <h3>Personal Guidance</h3>
+            <p>Get one-on-one coaching and clarity tailored to your learning pace.</p>
+          </article>
+
+          <article class="info-card">
+            <i class="fas fa-users"></i>
+            <h3>Support System</h3>
+            <p>Join a private community of like-minded learners and investors.</p>
+          </article>
+
+          <article class="info-card">
+            <i class="fas fa-book-open"></i>
+            <h3>No Jargon</h3>
+            <p>Understand the stock market without unnecessary complexity or confusion.</p>
+          </article>
+
+          <article class="info-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Long-Term Mindset</h3>
+            <p>Designed for people who want clarity, discipline, and sustainable growth.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="market-explainer section-dark" aria-label="What is the stock market">
+      <div class="container narrow">
+        <div class="section-heading center-light">
+          <span class="section-tag">Foundation</span>
+          <h2>What Exactly Is the Stock Market?</h2>
+        </div>
+
+        <p>
+          The stock market is where people buy small ownership shares in real companies such as Apple,
+          Tesla, or Dangote.
+        </p>
+        <p>
+          When those companies grow in value, your investment grows with them.
+        </p>
+        <p>
+          Instead of leaving money idle in a savings account, investing allows your capital to work for you
+          and compound over time. Disciplined investors build wealth gradually over 5 to 10 years.
+        </p>
+
+        <div class="truth-list">
+          <div><i class="fas fa-times-circle"></i> It is not gambling</div>
+          <div><i class="fas fa-times-circle"></i> It is not only for the wealthy</div>
+          <div><i class="fas fa-check-circle"></i> It is a structured financial system once understood</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="for-whom section-light" id="for" aria-label="Who the program is for">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <div class="section-heading">
+              <span class="section-tag">Who This Program Is For</span>
+              <h2>Built for Serious Learners and Future Investors</h2>
+            </div>
+
+            <ul class="features">
+              <li><i class="fas fa-check-circle"></i> Salary earners who want money working beyond their paycheck</li>
+              <li><i class="fas fa-check-circle"></i> Business owners who want to invest excess capital wisely</li>
+              <li><i class="fas fa-check-circle"></i> Young professionals who want to start early</li>
+              <li><i class="fas fa-check-circle"></i> Complete beginners who have never invested before</li>
+              <li><i class="fas fa-check-circle"></i> Anyone serious about building wealth over the next 5 to 10 years</li>
+              <li><i class="fas fa-check-circle"></i> No prior knowledge required — only willingness to learn and apply</li>
+            </ul>
+          </div>
+
+          <div class="outcome-box">
+            <h3>By the End of This Program You Will Be Able To:</h3>
+            <ul class="features">
+              <li><i class="fas fa-arrow-right"></i> Understand how the market works from the ground up</li>
+              <li><i class="fas fa-arrow-right"></i> Differentiate between investing and speculation</li>
+              <li><i class="fas fa-arrow-right"></i> Analyze and evaluate stocks confidently</li>
+              <li><i class="fas fa-arrow-right"></i> Identify strong companies</li>
+              <li><i class="fas fa-arrow-right"></i> Manage risk properly</li>
+              <li><i class="fas fa-arrow-right"></i> Build a structured long-term portfolio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course section-white" id="modules" aria-label="Program modules">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Program Structure</span>
+          <h2>6 Practical Modules</h2>
+          <p>Everything is arranged to move you from beginner level to confident long-term investor.</p>
+        </div>
+
+        <div class="modules-grid">
+          <article class="module-card">
+            <span class="module-number">01</span>
+            <h3>Stock Market Foundations</h3>
+            <p>Develop the mindset of a long-term investor and understand how the market operates.</p>
+          </article>
+
+          <article class="module-card">
+            <span class="module-number">02</span>
+            <h3>Market Analysis</h3>
+            <p>Learn fundamental and technical analysis, and how to evaluate companies properly.</p>
+          </article>
+
+          <article class="module-card">
+            <span class="module-number">03</span>
+            <h3>Sector Mastery & Emerging Opportunities</h3>
+            <p>Focus on industries and identify high-growth sectors early.</p>
+          </article>
+
+          <article class="module-card">
+            <span class="module-number">04</span>
+            <h3>Strategy & Risk Management</h3>
+            <p>Know when to enter, when to exit, and how to protect capital.</p>
+          </article>
+
+          <article class="module-card">
+            <span class="module-number">05</span>
+            <h3>Portfolio Construction</h3>
+            <p>Learn asset allocation, diversification, and how to build a balanced investment portfolio.</p>
+          </article>
+
+          <article class="module-card">
+            <span class="module-number">06</span>
+            <h3>ETFs & Alternative Investment Options</h3>
+            <p>Understand index funds, ETFs, and other diversification strategies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="includes section-light" aria-label="What is included">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Includes</span>
+          <h2>Everything You Need to Start Strong</h2>
+        </div>
+
+        <div class="includes-grid">
+          <div class="include-item">
+            <i class="fas fa-user-friends"></i>
+            <h3>Private Community Access</h3>
+            <p>Stay connected with a focused learning community.</p>
+          </div>
+
+          <div class="include-item">
+            <i class="fas fa-certificate"></i>
+            <h3>Certificate of Completion</h3>
+            <p>Receive recognition after successfully completing the program.</p>
+          </div>
+
+          <div class="include-item">
+            <i class="fas fa-calendar-check"></i>
+            <h3>Flexible Scheduling</h3>
+            <p>Sessions are arranged to fit real-life schedules.</p>
+          </div>
+
+          <div class="include-item">
+            <i class="fas fa-comments"></i>
+            <h3>One-on-One Coaching</h3>
+            <p>Get personalized attention and direct guidance through the learning process.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results section-white" id="results" aria-label="Student results and testimonials">
+  <div class="container">
+    <div class="section-heading">
+      <span class="section-tag">Real Results From Students</span>
+      <h2>Proof That the Program Delivers</h2>
+      <p>These are some of the responses and results shared by learners.</p>
+    </div>
+
+    <div class="testimonial-grid">
+      <figure class="testimonial-shot">
+        <img src="./media/testimonial.jpeg" alt="Student testimonial message appreciating the knowledge gained"
+          class="lightbox-image">
+      </figure>
+
+      <figure class="testimonial-shot">
+        <img src="./media/testimonial2.jpeg"
+          alt="Student testimonial saying the principles apply beyond the stock market" class="lightbox-image">
+      </figure>
+
+      <figure class="testimonial-shot">
+        <img src="./media/testimonial3.jpeg"
+          alt="Student testimonial showing portfolio growth and renewed motivation" class="lightbox-image">
+      </figure>
+
+      <figure class="testimonial-shot">
+        <img src="./media/testimonial4.jpeg"
+          alt="Student feedback saying the coaching recalibrated their thinking" class="lightbox-image">
+      </figure>
+
+      <figure class="testimonial-shot">
+        <img src="./media/testimonial5.jpeg" alt="Student result screenshot showing year-to-date growth"
+          class="lightbox-image">
+      </figure>
+    </div>
+  </div>
+</section>
+
+    <section class="pricing section-dark" id="pricing" aria-label="Program pricing">
+      <div class="container narrow">
+        <div class="section-heading center-light">
+          <span class="section-tag">Program Fee</span>
+          <h2>Join Stock Market Mastery</h2>
+          <p>
+            Beginner-friendly, practical, and built for long-term growth.
+          </p>
+        </div>
+
+        <div class="pricing-card">
+          <h3>₦35,000</h3>
+          <p>One-month coaching program</p>
+
+          <ul class="features pricing-features">
+            <li><i class="fas fa-check-circle"></i> Beginner-friendly, no prior experience required</li>
+            <li><i class="fas fa-check-circle"></i> One-on-one personalized coaching</li>
+            <li><i class="fas fa-check-circle"></i> Structured modules for long-term growth</li>
+            <li><i class="fas fa-check-circle"></i> Access to private community and certificate</li>
+          </ul>
+
+          <a href="#" class="cta-button whatsapp-link" target="_blank" rel="noopener">Click Here to Enroll</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section-accent" aria-label="Final call to action">
+      <div class="container">
+        <h2>Ready to Reserve Your Seat?</h2>
+        <p>
+          Start your investing journey with clarity, confidence, and the right guidance.
+        </p>
+        <a href="#" class="cta-button whatsapp-link" target="_blank" rel="noopener">Join via WhatsApp</a>
       </div>
     </section>
   </main>
 
-  <!-- Footer with brand and contact information -->
   <footer id="contact">
     <div class="container footer">
-      <p><strong>Financial Elites</strong></p>
+      <p><strong>JohnsonRich & Co. Ltd</strong></p>
+      <p>Stock Market Mastery Program</p>
+
       <address>
-        Contact: <a href="mailto:info@yourbrand.com">johnsonrich28100@gmail.com</a> |
-        <a href="tel:+2348060913199">+2348060913199</a>
+        Contact:
+        <a href="mailto:johnsonrich28100@gmail.com">johnsonrich28100@gmail.com</a> |
+        <a href="tel:+2348060913199">+234 806 091 3199</a>
       </address>
 
-      <!-- Social media links -->
       <div class="social-icons">
-        <a href="#" aria-label="Whatsapp" class="whatsapp-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="WhatsApp" class="whatsapp-link" target="_blank" rel="noopener">
+          <i class="fab fa-whatsapp"></i>
+        </a>
       </div>
 
-      <!-- Copyright and credits -->
       <div class="footer-bottom">
-        <p>&copy; <a href="https://kerdaino.github.io/portfolio" target="_blank">2025 Built by KD Global. All rights
-            reserved.</a></p>
+        <p>&copy; 2025 JohnsonRich & Co. Ltd. All rights reserved.</p>
+        <p>Built by <a href="https://kerdaino.github.io/portfolio" target="_blank" rel="noopener">KD Global</a></p>
       </div>
     </div>
   </footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close testimonial preview">&times;</button>
+  <img src="" alt="" class="lightbox-content" id="lightboxImage">
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const whatsappURL = "https://wa.link/mjpqyn";
 
-  <!-- JavaScript for interactivity and UX enhancements -->
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      // Define WhatsApp URL once (DRY principle)
-      const whatsappURL = 'https://wa.link/ithf7q';
+    document.querySelectorAll(".whatsapp-link").forEach(link => {
+      link.href = whatsappURL;
+    });
 
-      // Assign it to all buttons with the class .whatsapp-link
-      document.querySelectorAll('.whatsapp-link').forEach(link => {
-        link.href = whatsappURL;
-      });
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        const targetId = this.getAttribute("href");
 
-      // Smooth scrolling for internal anchor links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+        if (targetId === "#") {
           e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+          return;
+        }
+
+        const target = document.querySelector(targetId);
+
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({
+            behavior: "smooth"
           });
-        });
+        }
       });
     });
-  </script>
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightboxImage");
+    const lightboxClose = document.getElementById("lightboxClose");
+    const galleryImages = document.querySelectorAll(".lightbox-image");
+
+    galleryImages.forEach(image => {
+      image.style.cursor = "pointer";
+
+      image.addEventListener("click", () => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+        lightbox.classList.add("active");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      });
+    });
+
+    function closeLightbox() {
+      lightbox.classList.remove("active");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.src = "";
+      lightboxImage.alt = "";
+      document.body.style.overflow = "";
+    }
+
+    lightboxClose.addEventListener("click", closeLightbox);
+
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && lightbox.classList.contains("active")) {
+        closeLightbox();
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
