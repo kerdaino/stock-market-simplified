@@ -1,6 +1,3 @@
-Here is a clean `README.md` you can add to the project:
-
-````md
 # Stock Market Mastery Landing Page
 
 A responsive landing page for **Stock Market Mastery**, a **JohnsonRich & Co. Ltd Program**.
